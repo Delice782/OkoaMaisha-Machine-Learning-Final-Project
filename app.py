@@ -2285,11 +2285,8 @@ else:  # Dataset Info
     - Clinical predictions should always be validated by healthcare professionals
     - This model is a **decision support tool**, not a diagnostic device
     """)
-    
-    st.markdown("---")
 
 # Footer
-st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #64748b; padding: 2rem;'>
     <p style='font-size: 1.1rem; font-weight: 600; color: #1e3a8a;'>OkoaMaisha - Hospital Resource Optimization System</p>
