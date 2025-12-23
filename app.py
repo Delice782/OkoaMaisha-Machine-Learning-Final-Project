@@ -1370,30 +1370,93 @@ if page == "🏠 Home":
     """, unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
-    
+
     st.markdown("""
-    <div style='text-align: center; background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 2rem;'>
-        <p style='font-size: 1.1rem; color: #1e3a8a; font-weight: 600; margin-bottom: 1rem;'>🎯 Trusted AI Performance</p>
-        <div class='stats-grid' style='grid-template-columns: repeat(4, 1fr); max-width: 900px; margin: 0 auto;'>
-            <div>
-                <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>97.2%</div>
-                <div style='color: #64748b; font-size: 0.9rem;'>Accuracy</div>
+    <style>
+    @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+        20%, 40%, 60%, 80% { transform: translateX(2px); }
+    }
+    
+    .stat-box {
+        background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        padding: 2rem 1.5rem;
+        border-radius: 12px;
+        text-align: center;
+        border: 2px solid #3b82f6;
+        transition: all 0.3s ease;
+    }
+    
+    .stat-box:hover {
+        animation: shake 0.5s;
+        box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
+        transform: translateY(-5px);
+    }
+    
+    .stat-number {
+        color: #3b82f6;
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin: 0;
+        line-height: 1;
+    }
+    
+    .stat-label {
+        color: #475569;
+        font-size: 0.95rem;
+        margin-top: 0.75rem;
+        font-weight: 600;
+    }
+    </style>
+    
+    <div style='margin-bottom: 2rem;'>
+        <p style='text-align: center; font-size: 1.2rem; color: #1e3a8a; font-weight: 700; margin-bottom: 1.5rem;'>
+            🎯 Trusted AI Performance
+        </p>
+        <div style='display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; max-width: 1200px; margin: 0 auto;'>
+            <div class='stat-box'>
+                <div class='stat-number'>97.2%</div>
+                <div class='stat-label'>Accuracy</div>
             </div>
-            <div>
-                <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>±0.31</div>
-                <div style='color: #64748b; font-size: 0.9rem;'>Days Error</div>
+            <div class='stat-box'>
+                <div class='stat-number'>±0.31</div>
+                <div class='stat-label'>Days Error</div>
             </div>
-            <div>
-                <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>98%</div>
-                <div style='color: #64748b; font-size: 0.9rem;'>Long-Stay Recall</div>
+            <div class='stat-box'>
+                <div class='stat-number'>98%</div>
+                <div class='stat-label'>Long-Stay Recall</div>
             </div>
-            <div>
-                <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>&lt;1s</div>
-                <div style='color: #64748b; font-size: 0.9rem;'>Prediction Time</div>
+            <div class='stat-box'>
+                <div class='stat-number'>&lt;1s</div>
+                <div class='stat-label'>Prediction Time</div>
             </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
+    # st.markdown("""
+    # <div style='text-align: center; background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 2rem;'>
+    #     <p style='font-size: 1.1rem; color: #1e3a8a; font-weight: 600; margin-bottom: 1rem;'>🎯 Trusted AI Performance</p>
+    #     <div class='stats-grid' style='grid-template-columns: repeat(4, 1fr); max-width: 900px; margin: 0 auto;'>
+    #         <div>
+    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>97.2%</div>
+    #             <div style='color: #64748b; font-size: 0.9rem;'>Accuracy</div>
+    #         </div>
+    #         <div>
+    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>±0.31</div>
+    #             <div style='color: #64748b; font-size: 0.9rem;'>Days Error</div>
+    #         </div>
+    #         <div>
+    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>98%</div>
+    #             <div style='color: #64748b; font-size: 0.9rem;'>Long-Stay Recall</div>
+    #         </div>
+    #         <div>
+    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>&lt;1s</div>
+    #             <div style='color: #64748b; font-size: 0.9rem;'>Prediction Time</div>
+    #         </div>
+    #     </div>
+    # </div>
+    # """, unsafe_allow_html=True)
     
     st.markdown("<h2 style='color: #1e3a8a; margin-top: 2rem;'>📋 Enter Patient Information</h2>", unsafe_allow_html=True)
     
