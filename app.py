@@ -2299,7 +2299,7 @@ else:  # Dataset Info
         """, unsafe_allow_html=True)
         
         if st.button("🏠 Try the Predictor", type="primary", use_container_width=True):
-            she.rerun()
+            st.rerun()
 
 # Footer
 st.markdown("---")
