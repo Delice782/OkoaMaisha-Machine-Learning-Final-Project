@@ -2287,24 +2287,6 @@ else:  # Dataset Info
     """)
     
     st.markdown("---")
-    
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
-        st.markdown("""
-        <div style='background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);'>
-            <p style='color: white; font-size: 1.1rem; font-weight: 600; margin: 0;'>
-                📊 Want to see how this data powers our predictions?
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-
-        st.markdown("<br>", unsafe_allow_html=True)  # Add this line before the button columns
-        col1, col2, col3 = st.columns([1, 2, 1])
-        
-        if st.button("🏠 Try the Predictor", type="primary", use_container_width=True):
-            st.rerun()
-
-       
 
 # Footer
 st.markdown("---")
