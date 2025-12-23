@@ -1805,7 +1805,6 @@ elif page == "📊 Overview":
     }
     </style>
     """, unsafe_allow_html=True)
-
     
     col1, col2, col3, col4 = st.columns(4)
     steps = [
@@ -1818,10 +1817,10 @@ elif page == "📊 Overview":
     for col, (num, title, desc, color) in zip([col1, col2, col3, col4], steps):
         with col:
             st.markdown(f"""
-            <div style='background: white; padding: 1.5rem; border-radius: 12px; border: 2px solid {color}; text-align: center; height: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.08);'>
-                <div style='background: {color}; color: white; width: 50px; height: 50px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.3rem; margin-bottom: 1rem;'>{num}</div>
-                <h4 style='color: #1e3a8a; margin: 0.75rem 0 0.5rem 0;'>{title}</h4>
-                <p style='color: #64748b; font-size: 0.95rem; line-height: 1.6;'>{desc}</p>
+            <div class='process-box' style='border: 2px solid {color};'>
+                <div class='process-number' style='background: {color};'>{num}</div>
+                <h4 class='process-title'>{title}</h4>
+                <p class='process-desc'>{desc}</p>
             </div>
             """, unsafe_allow_html=True)
     
