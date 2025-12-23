@@ -1760,6 +1760,52 @@ elif page == "📊 Overview":
     """, unsafe_allow_html=True)
     
     st.markdown("### 🚀 The Prediction Process")
+
+    st.markdown("""
+    <style>
+    .process-box {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;
+        height: 100%;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: all 0.3s ease;
+    }
+    
+    .process-box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    
+    .process-number {
+        color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .process-title {
+        color: #1e3a8a;
+        margin: 0.75rem 0 0.5rem 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    .process-desc {
+        color: #64748b;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     
     col1, col2, col3, col4 = st.columns(4)
     steps = [
