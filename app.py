@@ -1775,7 +1775,7 @@ elif page == "📊 Overview":
     
     .process-box:hover {
         transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
     }
     
     .process-number {
