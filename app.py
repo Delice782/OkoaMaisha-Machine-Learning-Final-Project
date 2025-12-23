@@ -1867,20 +1867,6 @@ elif page == "📊 Overview":
         """)
     
     st.markdown("---")
-    
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col2:
-        st.markdown("""
-        <div style='background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%); padding: 2rem; border-radius: 15px; text-align: center; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);'>
-            <p style='color: white; font-size: 1.2rem; font-weight: 600; margin: 0;'>
-                ✨ Ready to see it in action?
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        if st.button("🚀 Make a Prediction", type="primary", use_container_width=True):
-            st.session_state.page = "🏠 Home"
-            st.rerun()
 
 # MODEL PERFORMANCE PAGE
 elif page == "📈 Model Performance":
