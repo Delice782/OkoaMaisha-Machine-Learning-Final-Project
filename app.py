@@ -1305,6 +1305,7 @@ with st.sidebar:
     st.markdown("### 🎯 Quick Stats")
     st.metric("Accuracy", f"{metadata['test_r2']:.1%}")
     st.metric("Average Error", f"±{metadata['test_mae']:.2f} days")
+    st.metric("Weighted Error", f"±{metadata['test_rmse']:.2f} days")
     
     try:
         training_date = metadata['training_date'][:10]
