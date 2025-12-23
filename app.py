@@ -1680,9 +1680,6 @@ if page == "🏠 Home":
                     file_name=f"los_prediction_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
                     use_container_width=True
                 )
-            
-            with col3:
-                st.button("📊 View Dashboard", use_container_width=True)
 
 # OVERVIEW PAGE
 # OVERVIEW PAGE
