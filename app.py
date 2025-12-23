@@ -694,7 +694,7 @@ elif page == "📊 Overview":
         <p style='font-size: 1.15rem; color: #1e3a8a; line-height: 1.8; margin: 0;'>
             OkoaMaisha uses advanced <strong>Gradient Boosting machine learning</strong> to analyze 42 clinical features 
             and predict individual patient length of stay with 97% accuracy. The system was trained on 
-            100,000 real patient records to provide reliable, actionable predictions.
+            100,000 patient records to provide reliable, actionable predictions.
         </p>
     </div>
     """, unsafe_allow_html=True)
