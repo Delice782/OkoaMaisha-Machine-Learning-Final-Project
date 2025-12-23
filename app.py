@@ -1221,6 +1221,11 @@ h1 a, h2 a, h3 a, h4 a {
     font-size: 1rem;
 }
 
+.capability-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
 .stButton > button {
     font-size: 1.1rem;
     font-weight: 700;
