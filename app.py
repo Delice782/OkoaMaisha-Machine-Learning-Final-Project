@@ -1879,8 +1879,8 @@ elif page == "📊 Overview":
         """, unsafe_allow_html=True)
         
         if st.button("🚀 Make a Prediction", type="primary", use_container_width=True):
+            st.session_state.page = "🏠 Home"
             st.rerun()
-
 
 # MODEL PERFORMANCE PAGE
 elif page == "📈 Model Performance":
