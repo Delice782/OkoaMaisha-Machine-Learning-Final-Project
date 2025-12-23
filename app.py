@@ -1389,10 +1389,10 @@ if page == "🏠 Home":
     }
     
     .stat-box:hover {
-        animation: shake 0.5s;
         box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);
         transform: translateY(-5px);
     }
+
     
     .stat-number {
         color: #3b82f6;
