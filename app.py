@@ -1999,7 +1999,7 @@ elif page == "📈 Model Performance":
             st.info("""
             **RMSE (0.40 days)**
             
-            Similar to MAE but penalizes larger errors more heavily. Low RMSE means we **rarely make big mistakes**.
+            Similar to MAE but penalizes larger errors more heavily. 
             
             If we predict 5 days, even "worst-case" patient length of stay is typically between **4.6–5.4 days**.
             """)
