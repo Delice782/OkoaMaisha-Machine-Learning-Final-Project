@@ -1766,7 +1766,7 @@ elif page == "📊 Overview":
         ("1", "📝 Input", "Enter patient demographics, vitals, and medical history", "#3b82f6"),
         ("2", "🤖 Analyze", "AI processes 42 clinical features using ML algorithms", "#10b981"),
         ("3", "🎯 Predict", "Get precise length of stay estimate (±0.31 days)", "#f59e0b"),
-        ("4", "📋 Plan", "Receive resource recommendations and risk assessment", "#8b5cf6")
+        ("4", "📋 Plan", "Get resource recommendations and risk assessment", "#8b5cf6")
     ]
     
     for col, (num, title, desc, color) in zip([col1, col2, col3, col4], steps):
