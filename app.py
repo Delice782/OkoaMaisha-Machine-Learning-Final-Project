@@ -2139,7 +2139,7 @@ else:  # Dataset Info
         | **vdate** | String | Visit/admission date |
         """)
     
-    with st.expander("🏥 **Medical History & Comorbidities** (11 features)", expanded=False):
+    with st.expander("🏥 **Medical History & Comorbidities** (11 features)", expanded=True):
         st.markdown("""
         | Feature | Type | Description |
         |---------|------|-------------|
@@ -2156,7 +2156,7 @@ else:  # Dataset Info
         | **hemo** | String | Flag for blood/hematological disorders |
         """)
     
-    with st.expander("💉 **Laboratory Results & Vital Signs** (8 features)", expanded=False):
+    with st.expander("💉 **Laboratory Results & Vital Signs** (8 features)", expanded=True):
         st.markdown("""
         | Feature | Type | Description | Normal Range |
         |---------|------|-------------|--------------|
@@ -2170,7 +2170,7 @@ else:  # Dataset Info
         | **respiration** | Float | Average respiration rate (breaths/min) | 12-20 |
         """)
     
-    with st.expander("📊 **Administrative & Admission Data** (5 features)", expanded=False):
+    with st.expander("📊 **Administrative & Admission Data** (5 features)", expanded=True):
         st.markdown("""
         | Feature | Type | Description |
         |---------|------|-------------|
