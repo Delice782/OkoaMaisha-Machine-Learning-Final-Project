@@ -265,7 +265,7 @@ if page == "🏠 Home":
         <h1>🏥 OkoaMaisha: Save Lives with AI</h1>
         <p style='font-size: 1.15rem; margin-top: 0.75rem;'>
             <strong>OkoaMaisha</strong> (Swahili for "Save Lives") is an AI-powered clinical decision support system 
-            designed to predict patient Patient Length of Stay. Using advanced machine learning, 
+            designed to predict Patient <strong>Length of Stay (LoS)</strong>. Using advanced machine learning, 
             we help healthcare facilities with precise forecasts to optimize bed capacity, streamline resource allocation, and ultimately improve patient outcomes.
         </p>
     </div>
