@@ -1865,9 +1865,7 @@ elif page == "📊 Overview":
         The model excels at identifying high-risk patients early. With **98% recall** for long stays, 
         it catches almost all cases requiring extended care.
         """)
-    
-    st.markdown("---")
-
+        
 # MODEL PERFORMANCE PAGE
 elif page == "📈 Model Performance":
     st.title("📈 Model Performance Metrics")
