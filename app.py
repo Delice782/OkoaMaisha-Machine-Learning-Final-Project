@@ -2297,12 +2297,14 @@ else:  # Dataset Info
             </p>
         </div>
         """, unsafe_allow_html=True)
+
+        st.markdown("<br>", unsafe_allow_html=True)  # Add this line before the button columns
+        col1, col2, col3 = st.columns([1, 2, 1])
         
         if st.button("🏠 Try the Predictor", type="primary", use_container_width=True):
             st.rerun()
 
-        st.markdown("<br>", unsafe_allow_html=True)  # Add this line before the button columns
-        col1, col2, col3 = st.columns([1, 2, 1])
+       
 
 # Footer
 st.markdown("---")
