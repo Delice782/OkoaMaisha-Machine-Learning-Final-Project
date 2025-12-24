@@ -1021,7 +1021,7 @@ elif page == "📈 Model Performance":
                 <li><strong>Accuracy:</strong> 97% for extended stays</li>
                 <li><strong>Recall:</strong> 98% detection rate (1,682/1,713)</li>
                 <li><strong>Missed cases:</strong> Only 31 patients</li>
-                <li><strong>Impact:</strong> Prevents bed shortages effectively</li>
+                <li><strong>Impact:</strong> Enables proactive resource optimization and capacity planning</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
