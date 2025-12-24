@@ -900,7 +900,7 @@ elif page == "📈 Model Performance":
                 <li><strong>Accuracy:</strong> 97.21% of variance explained</li>
                 <li><strong>Precision:</strong> ±0.31 days (7.4 hours)</li>
                 <li><strong>Long-Stay Detection:</strong> 98% recall rate</li>
-                <li><strong>Missed Cases:</strong> Only 31 out of 1,713</li>
+                <li><strong>Detection Success:</strong> Identifies 1,682 of 1,713 patients (98%)</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
