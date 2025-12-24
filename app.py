@@ -19,6 +19,16 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Force sidebar visibility
+st.markdown("""
+<style>
+/* Ensure sidebar is visible on load */
+section[data-testid="stSidebar"] {
+    min-width: 21rem;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # Enhanced Custom CSS
 st.markdown("""
 <style>
