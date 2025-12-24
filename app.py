@@ -888,6 +888,8 @@ elif page == "📈 Model Performance":
                 <li><strong>Test Set:</strong> 20,000 patients (20%)</li>
                 <li><strong>Features:</strong> 42 clinical variables</li>
                 <li><strong>Algorithm:</strong> Gradient Boosting, XGBoost, LightGBM, Random Forest</li>
+                <li><strong>Validation:</strong> 5-fold cross-validation</li>
+                <li><strong>Feature Scaling:</strong> StandardScaler normalization</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
