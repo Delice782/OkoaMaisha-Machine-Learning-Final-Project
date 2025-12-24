@@ -374,29 +374,6 @@ if page == "🏠 Home":
         </div>
     </div>
     """, unsafe_allow_html=True)
-    # st.markdown("""
-    # <div style='text-align: center; background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 2rem;'>
-    #     <p style='font-size: 1.1rem; color: #1e3a8a; font-weight: 600; margin-bottom: 1rem;'>🎯 Trusted AI Performance</p>
-    #     <div class='stats-grid' style='grid-template-columns: repeat(4, 1fr); max-width: 900px; margin: 0 auto;'>
-    #         <div>
-    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>97.2%</div>
-    #             <div style='color: #64748b; font-size: 0.9rem;'>Accuracy</div>
-    #         </div>
-    #         <div>
-    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>±0.31</div>
-    #             <div style='color: #64748b; font-size: 0.9rem;'>Days Error</div>
-    #         </div>
-    #         <div>
-    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>98%</div>
-    #             <div style='color: #64748b; font-size: 0.9rem;'>Long-Stay Recall</div>
-    #         </div>
-    #         <div>
-    #             <div style='color: #3b82f6; font-size: 2rem; font-weight: 800;'>&lt;1s</div>
-    #             <div style='color: #64748b; font-size: 0.9rem;'>Prediction Time</div>
-    #         </div>
-    #     </div>
-    # </div>
-    # """, unsafe_allow_html=True)
     
     st.markdown("<h2 style='color: #1e3a8a; margin-top: 2rem;'>📋 Enter Patient Information</h2>", unsafe_allow_html=True)
     
