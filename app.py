@@ -266,7 +266,7 @@ if page == "🏠 Home":
         <p style='font-size: 1.15rem; margin-top: 0.75rem;'>
             <strong>OkoaMaisha</strong> (Swahili for "Save Lives") is an AI-powered clinical decision support system 
             designed to predict Patient <strong>Length of Stay (LoS)</strong>. Using advanced machine learning, 
-            we help healthcare facilities with precise forecasts to optimize bed capacity, streamline resource allocation, and ultimately improve patient outcomes.
+            it helps healthcare facilities with precise forecasts to optimize bed capacity, streamline resource allocation, and ultimately improve patient outcomes.
         </p>
     </div>
     """, unsafe_allow_html=True)
