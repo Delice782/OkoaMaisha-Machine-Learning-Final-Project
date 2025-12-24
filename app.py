@@ -906,6 +906,8 @@ elif page == "📈 Model Performance":
                 <li><strong>False Negatives:</strong> Only 31 long-stay patients incorrectly flagged as short-stay (1.8%)</li>
             </ul>
         </div>
+        """, unsafe_allow_html=True)
+
     
     st.markdown("---")
     
