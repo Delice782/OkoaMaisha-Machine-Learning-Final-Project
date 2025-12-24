@@ -1323,7 +1323,7 @@ else:  # Dataset Info
 # Footer
 st.markdown("""
 <div style='text-align: center; color: #64748b; padding: 2rem;'>
-    <p style='font-size: 1.1rem; font-weight: 600; color: #1e3a8a;'>OkoaMaisha - Hospital Resource Optimization System</p>
+    <p style='font-size: 1.1rem; font-weight: 600; color: #1e3a8a;'>OkoaMaisha - Hospital Length of Stay Prediction System</p>
     <p style='font-size: 0.9rem; margin-top: 0.5rem;'>Clinical Decision Support Tool </p>
     <p style='font-size: 0.8rem; margin-top: 1rem; color: #94a3b8;'>
         ⚠️ This tool is for clinical decision support only. 
