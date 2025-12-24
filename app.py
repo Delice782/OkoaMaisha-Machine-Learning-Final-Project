@@ -900,7 +900,7 @@ elif page == "📈 Model Performance":
                 <li><strong>Accuracy:</strong> 97.21% of variance explained</li>
                 <li><strong>Precision:</strong> ±0.31 days (7.4 hours)</li>
                 <li><strong>True Positives:</strong> Correctly flagged 1,682 of 1,713 long-stay patients</li>
-                <li><strong>False Negatives:</strong> Missed only 31 long-stay patients (1.8%)</li>
+                <li><strong>False Negatives:</strong> Only 31 long-stay patients incorrectly flagged as short-stay (1.8%)</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
