@@ -1,6 +1,6 @@
 """
-OkoaMaisha: Clinical Length of Stay Predictor - Version 3.0
-Complete Final Version
+Machine Learning Individual Final Project
+OkoaMaisha: Hospital Patient Length of Stay Predictor 
 """
 
 import streamlit as st
