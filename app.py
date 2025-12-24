@@ -887,7 +887,7 @@ elif page == "📈 Model Performance":
                 <li><strong>Training Set:</strong> 80,000 patients (80%)</li>
                 <li><strong>Test Set:</strong> 20,000 patients (20%)</li>
                 <li><strong>Features:</strong> 42 clinical variables</li>
-                <li><strong>Algorithm:</strong> Gradient Boosting Regressor</li>
+                <li><strong>Algorithm:</strong> Gradient Boosting, XGBoost, LightGBM, Random Forest</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
