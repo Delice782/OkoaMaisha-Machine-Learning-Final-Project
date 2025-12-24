@@ -662,7 +662,6 @@ if page == "🏠 Home":
                 )
 
 # OVERVIEW PAGE
-# OVERVIEW PAGE
 elif page == "📊 Overview":
     st.title("📊 How OkoaMaisha Works")
     
