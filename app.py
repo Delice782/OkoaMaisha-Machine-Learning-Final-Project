@@ -874,7 +874,7 @@ elif page == "📈 Model Performance":
     with col3:
         st.metric("RMSE", f"{metadata.get('test_rmse', 0.40):.2f} days", help="Root Mean Squared Error - penalizes larger errors")
     with col4:
-        st.metric("Dataset Size", "100,000 patient records", help="Total training + test data")
+        st.metric("Dataset Size", "100,000 patients", help="Total training + test data")
     
     st.markdown("---")
     
