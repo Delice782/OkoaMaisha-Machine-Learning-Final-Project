@@ -239,7 +239,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### 🎯 Quick Stats")
     st.metric("R² Score", f"{metadata['test_r2']:.1%}")
-    st.metric("Mean Absolute Error(MAE)", f"±{metadata['test_mae']:.2f} days")    
+    st.metric("Mean Absolute Error (MAE)", f"±{metadata['test_mae']:.2f} days")    
     try:
         training_date = metadata['training_date'][:10]
         st.caption(f"📅 Updated: {training_date}")
