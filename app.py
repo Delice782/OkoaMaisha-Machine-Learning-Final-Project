@@ -887,7 +887,7 @@ elif page == "📈 Model Performance":
                 <li><strong>Test Set:</strong> 20,000 patients (20%)</li>
                 <li><strong>Features:</strong> 42 clinical variables</li>
                 <li><strong>Models Trained:</strong> Gradient Boosting, XGBoost, LightGBM, Random Forest</li>
-                <li><strong>Cross-Validation:</strong> 5-fold CV (R²: 0.9711 ± 0.0020)</li>
+                <li><strong>Cross-Validation:</strong> 5-fold CV</li>
                 <li><strong>Preprocessing:</strong> StandardScaler normalization</li>
             </ul>
         </div>
