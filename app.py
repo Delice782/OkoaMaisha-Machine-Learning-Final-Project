@@ -802,7 +802,7 @@ elif page == "📊 Overview":
                 <li><strong>Random Forest:</strong> 93.36% R²</li>
             </ul>
             <p style='color: #8b5cf6; font-weight: 600; margin-top: 1rem;'>
-                Trained on: 80,000 patients | Tested on: 20,000 patients
+                Trained on: 80,000 patient records | Tested on: 20,000 patient records
             </p>
         </div>
         """, unsafe_allow_html=True)
