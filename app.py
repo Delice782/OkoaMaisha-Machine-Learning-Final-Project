@@ -899,8 +899,8 @@ elif page == "📈 Model Performance":
             <ul style='color: #475569; line-height: 2;'>
                 <li><strong>Accuracy:</strong> 97.21% of variance explained</li>
                 <li><strong>Precision:</strong> ±0.31 days (7.4 hours)</li>
-                <li><strong>Long-Stay Detection:</strong> 98% recall rate</li>
-                <li><strong>Detection Success:</strong> Identifies 1,682 of 1,713 patients (98%)</li>
+                <li><strong>True Positives:</strong> Identified 1,682 of 1,713 patients (98%)</li>
+                <li><strong>False Negatives:</strong> Only 31 out of 1,713 patients undetected</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
