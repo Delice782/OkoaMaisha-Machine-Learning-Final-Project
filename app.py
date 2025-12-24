@@ -899,7 +899,7 @@ elif page == "📈 Model Performance":
         <div class='metric-card' style='border-left-color: #10b981;'>
             <h4 style='color: #10b981;'>✅ Validation Results (Gradient Boosting)</h4>
             <ul style='color: #475569; line-height: 2;'>
-                <li><strong>Selected Model:</strong> Gradient Boosting Regressor</li>
+                <li><strong>Top Performing Model:</strong> Gradient Boosting Regressor</li>
                 <li><strong>R²:</strong> 97.21%</li>
                 <li><strong>MAE:</strong> 0.31 days</li>
                 <li><strong>RMSE:</strong> 0.40 days</li>
