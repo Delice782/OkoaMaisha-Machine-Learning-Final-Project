@@ -904,7 +904,7 @@ elif page == "📈 Model Performance":
                 <li><strong>MAE:</strong> 0.31 days</li>
                 <li><strong>RMSE:</strong> 0.40 days</li>
                 <li><strong>True Positives:</strong> Correctly flagged 1,682 of 1,713 long-stay patients</li>
-                <li><strong>False Negatives:</strong> Only 31 long-stay patients incorrectly flagged as short-stay (1.8%)</li>
+                <li><strong>False Negatives:</strong> Only 31 long-stay patients incorrectly flagged as short-stay patients(1.8%)</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
