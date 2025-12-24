@@ -233,7 +233,7 @@ def engineer_features(input_dict):
 with st.sidebar:
     st.image("https://img.icons8.com/fluency/96/hospital.png", width=70)
     st.title("OkoaMaisha")
-    st.caption("Hospital Length of Stay Predictior")
+    st.caption("Hospital Length of Stay Predictor")
     
     page = st.radio("Navigation", ["🏠 Home", "📊 Overview", "📈 Model Performance", "📁 Dataset Info"])
     
