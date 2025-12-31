@@ -275,34 +275,34 @@ if page == "🏠 Home":
     <div class='stats-container'>
         <h3 style='color: #1e3a8a; margin-bottom: 1.5rem; font-size: 1.5rem;'>💡 Why Length of Stay Prediction Matters</h3>
         <div style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;'>
-            <div style='background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #3b82f6;'>
-                <h4 style='color: #3b82f6; margin-top: 0;'>🛏️ Bed Management</h4>
-                <p style='color: #475569; line-height: 1.7;'>
-                    Predict capacity needs 3-7 days ahead, preventing bed shortages and ensuring emergency admission capacity.
-                </p>
-            </div>
             <div style='background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #10b981;'>
                 <h4 style='color: #10b981; margin-top: 0;'>📊 Resource Allocation</h4>
                 <p style='color: #475569; line-height: 1.7;'>
-                    Optimize staff scheduling and medical supply ordering based on predicted patient flow and complexity.
+                    Anticipate patient volume and care complexity to optimize staff scheduling, equipment availability, and medical supply planning, reducing operational strain and inefficiencies.
                 </p>
             </div>
             <div style='background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #ef4444;'>
                 <h4 style='color: #ef4444; margin-top: 0;'>🚨 Crisis Prevention</h4>
                 <p style='color: #475569; line-height: 1.7;'>
-                    Early warning system identifies potential bed shortages before they happen, allowing proactive solutions.
+                    Provide early warning signals by identifying potential capacity pressure days in advance, allowing hospitals to take proactive steps before shortages occur.
                 </p>
             </div>
             <div style='background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #eab308;'>
                 <h4 style='color: #eab308; margin-top: 0;'>⏱️ Discharge Planning</h4>
                 <p style='color: #475569; line-height: 1.7;'>
-                    Start discharge planning from day 1 for long-stay patients, reducing delays and improving patient flow.
+                    Identify patients likely to have longer stays early and begin discharge planning from day one, addressing barriers such as delayed tests, referrals, or social support needs.
+                </p>
+            </div>
+            <div style='background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #3b82f6;'>
+                <h4 style='color: #3b82f6; margin-top: 0;'>🛏️ Bed Management</h4>
+                <p style='color: #475569; line-height: 1.7;'>
+                    When resources are properly allocated and discharge barriers are removed early, patients leave on time. This prevents unnecessary prolonged stays, keeps beds available for incoming admissions, and reduces bottlenecks in patient flow.
                 </p>
             </div>
             <div style='background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); padding: 1.5rem; border-radius: 10px; border-left: 5px solid #8b5cf6;'>
                 <h4 style='color: #8b5cf6; margin-top: 0;'>💰 Cost Savings</h4>
                 <p style='color: #475569; line-height: 1.7;'>
-                    Reduce medical supply waste and prevent costly overtime staffing through accurate forecasting.
+                    Reduce overtime staffing, minimize medical supply waste, and improve overall operational efficiency through accurate forecasting.
                 </p>
             </div>
         </div>
@@ -1302,7 +1302,7 @@ st.markdown("""
     <p style='font-size: 1.1rem; font-weight: 600; color: #1e3a8a;'>OkoaMaisha - Hospital Length of Stay Prediction System</p>
     <p style='font-size: 0.9rem; margin-top: 0.5rem;'>Clinical Decision Support Tool </p>
     <p style='font-size: 0.8rem; margin-top: 1rem; color: #94a3b8;'>
-        ⚠️ This tool is for clinical decision support only. 
+        ⚠️ This tool is for clinical decision support only.
         Final decisions must be made by qualified healthcare professionals.
     </p>
     <p style='font-size: 0.75rem; margin-top: 0.5rem; color: #cbd5e1;'>
