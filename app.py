@@ -387,7 +387,7 @@ if page == "🏠 Home":
         with col3:
             bmi = st.number_input("BMI", 10.0, 60.0, 25.0, 0.1)
         
-    with st.expander("🩺 Medical History & Comorbidities", expanded=True):
+    with st.expander("🩺 **Medical History & Comorbidities**", expanded=True):
         col1, col2, col3 = st.columns(3)
         
         with col1:
@@ -422,7 +422,7 @@ if page == "🏠 Home":
             </div>
             """, unsafe_allow_html=True)
     
-    with st.expander("💉 Vital Signs & Laboratory Results", expanded=True):
+    with st.expander("💉 **Vital Signs & Laboratory Results**", expanded=True):
         col1, col2 = st.columns(2)
         with col1:
             st.markdown("**Vital Signs**")
@@ -465,7 +465,7 @@ if page == "🏠 Home":
             if bloodureanitro > 20:
                 st.caption("🟡 Elevated")
         
-    with st.expander("🏥 Admission Information", expanded=True):
+    with st.expander("🏥 **Admission Information**", expanded=True):
         col1, col2, col3, col4 = st.columns(4)
         with col1:
             facility = st.selectbox("Facility", ["A", "B", "C", "D", "E"])
