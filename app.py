@@ -13,7 +13,7 @@ from datetime import datetime
 
 # Page config
 st.set_page_config(
-    page_title="OkoaMaisha | LoS Predictorrr",
+    page_title="OkoaMaisha | LoS Predictor",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
