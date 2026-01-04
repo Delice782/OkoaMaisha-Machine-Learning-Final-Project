@@ -1675,6 +1675,13 @@ def show_main_app():
         st.image("https://img.icons8.com/fluency/96/hospital.png", width=70)
         st.title("OkoaMaisha")
         st.caption("Hospital Length of Stay Predictor")
+
+        st.markdown("---")
+        st.info(f"**👤 {st.session_state.user['full_name']}**\n\n{st.session_state.user['email']}")
+        if st.button("🚪 Logout", use_container_width=True):
+            st.session_state.authenticated = False
+            st.session_state.user = None
+            st.rerun()
         
         page = st.radio("Navigation", ["🏠 Home", "📊 Overview", "📈 Model Performance", "📁 Dataset Info"])
         
