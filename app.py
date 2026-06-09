@@ -4,7 +4,7 @@ Machine Learning Individual Final Project
 OkoaMaisha: Hospital Patient Length of Stay Predictor 
 """
 
-import streamlit as st
+import streamlit as st 
 import pandas as pd
 import numpy as np
 import joblib
